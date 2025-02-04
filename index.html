@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUS PASS APPLICATION</title>
+   <meta property="og:title" content="Forms">
+   <meta property="og:description" content="Telangana state board transport corporation">
+   <meta property="og:image" content="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg">
+</head>
+<body>
+    <CENTER>
+        <img src="./telangana.png" alt="telangana logo" width="50">
+        <h2>TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+        <h3>GENERAL BUS PASS APPLICATION</h3>
+    </CENTER >
+    <fieldset>
+        <legend><h3>APPLICATION DETAILS</h3></legend>
+        <table cellspacing="1" cellpadding="20">
+            <tr >
+              <td>
+                <P>NAME  </P>
+              </td>
+              <td>
+                <input type="text"  placeholder="name" title="enter the your name " pattern="[a-zA-Z]+">
+              </td>
+              <td>
+                <p>Father's / Guardian's</p>
+              </td>
+             
+              <td>
+                <input type="text" placeholder="name" title=" enter your father's name " pattern="[a-zA-Z]+"
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Date Of Birth
+                    </p>
+                </td>
+                <td>
+                    <input type="birthday"  placeholder="data of birthday " title ="enter your date of birth" pattern="(?=.*(0-9))+">
+                </td>
+                <td>
+                   <label for="gender">gender</label>
+                </td>
+                <td>
+                    <input type="radio"  id="Female" name="select a gender" value="Female"><b>female</b>
+                    <input type="radio" id="Male" name="select a gender" value="Male"> <b>Male</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <p>
+                    Aadhaar no :
+                </p>
+                </td>
+                <td>
+                    <input type="digit" placeholder="enter the Aadhaar number" pattern="[0-9]+">
+                </td>
+                <td> <p>
+                    Whatapp number :
+                </p>
+                </td>
+                <td>
+                    <input type="number" placeholder="enter your whatapp number" pattern="[0-9]+{10}">
+                </td>
+            </tr>
+            <td>
+                <p>
+                    photo 
+                </p>
+            </td>
+            <td>
+                <input type="file" placeholder="fieldset"  >
+            </td>
+
+        </table>
+       
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h3>
+                Residential Address Details
+            </h3>
+        </legend>
+        <table cellspacing="1" cellpadding="20">
+            <tr>
+                <td>
+                    <p>
+                        Applicant's Address
+                    </p>
+                </td>
+                <td>
+                <textarea rows="5" cols="40"></textarea>
+                </td>
+                <td>
+                    <p>District</p>
+                </td>
+                <td>
+                <label for="city">choose a city</label>
+                <select name="city" id="city">
+                    <option value="hyderabad">hyderabad</option>
+                    <option value="kachiguda">kachiguda</option>
+                    <option value="kphb">kphb</option>
+                </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p>mandal</p> 
+                </td>
+                <td>
+                    <label for="mandal">choose a mandal</label>
+                    <select name="city" id="city">
+                        <option value="hyderabad">hyderabad</option>
+                        <option value="kachiguda">kachiguda</option>
+                        <option value="kphb">kphb</option>
+                    </select>
+                    </td>
+                    <td>
+                       <p> village</p>
+                    </td>
+                    <td>
+                        <label for="village">choose a village</label>
+                    <select name="city" id="city">
+                        <option value="hyderabad">hyderabad</option>
+                        <option value="kachiguda">kachiguda</option>
+                        <option value="kphb">kphb</option>
+                    </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend><h3>Pass Type Details</h3></legend>
+        <table>
+            <tr>
+                <td>
+                    <p>city</p>
+                </td>
+                <td>
+                    <label for="city"></label>
+                    <select name="city" id="city">
+                        <option value="hyderabad">hyderabad</option>
+                        <option value="kachiguda">kachiguda</option>
+                        <option value="kphb">kphb</option>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Pass Type</p>
+                </td>
+                <td>
+                    <label for="city"></label>
+                    <select name="city" id="city">
+                        <option value="hyderabad">hyderabad</option>
+                        <option value="kachiguda">kachiguda</option>
+                        <option value="kphb">kphb</option>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend><h3>mode of payment & pass Collection</h3></legend>
+            <!--  -->
+        
+        <table>
+            <tr>
+                <td>
+                <p>
+                    payment mode
+                </p>
+                </td>
+                <td>
+                    <label for="city"></label>
+                    <select name="city" id="city">
+                        <option value="hyderabad">select payment mode</option>
+                        <option value="kachiguda">kachiguda</option>
+                        <option value="kphb">kphb</option>
+
+                </td>
+                <tr>
+                <td>
+                    <p>
+                        pass Delivery mode
+                    </p>
+                    </td>
+                    <td>
+                        <label for="city"></label>
+                        <select name="city" id="city">
+                            <option value="hyderabad">select pass Delivery mode </option>
+                            <option value="kachiguda">kachiguda</option>
+                            <option value="kphb">kphb</option>
+    
+                    </td>
+                </tr>
+            </tr>
+            <td>
+                <p>
+                    Center at which you  want to Collect pass
+                </p>
+                </td>
+                <td>
+                    <label for="city"></label>
+                    <select name="city" id="city">
+                        <option value="hyderabad">----select---- </option>
+                        <option value="kachiguda">kachiguda</option>
+                        <option value="kphb">kphb</option>
+
+                </td>
+        </table>
+    </fieldset>
+    <br>
+    <center>
+    <img src="./caption.png" alt="Caption">
+    <br>
+    <input type="text">
+    <br>
+    <br>
+    <input type="submit" placeholder="submit">
+
+</body>
+</html>
+
+<!-- <input type="email" title = "enter the your email" placeholder="email" pattern="[a-zA-z0-9!@#$%^&*?./|]+"> -->
